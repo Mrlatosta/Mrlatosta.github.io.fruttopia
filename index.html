@@ -56,26 +56,65 @@
     @media only screen and (max-width: 600px) {
   #bgText {
     top: 75%;
+    
 
   }
+
+  #content{
+    font-size: .7rem;
+  }
+
+  #imagensita{
+    margin-top: 50%;
+  }
+
+   #imagensitaa{
+    margin-top: 75%;
+  }
+
+  #imagensitaaa{
+    margin-top: 50%;
+  }
+
+
+
 }
+
+ @media only screen and (max-width: 600px) {
+
+#titlep2 {
+  font-size: .8rem;
+
+}
+
+ }
+
 .about .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.about .title {
+.title {
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 40px;
   text-transform: uppercase;
 }
 
-.about .titlep{
+
+
+.titlep{
   font-size: 25px;
   margin: 20px;
   text-transform: uppercase;
 }
+
+#titlep2{
+  margin: 20px;
+  text-transform: uppercase;
+   color:  #d8fffd;
+}
+
 
   .description{
     line-height: 24px;
@@ -96,7 +135,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #fe6c2b;">
    <a class="navbar-brand" href="#">
-    <img src="logofru.png" width="180" height="80" class="ml-3" alt="">
+    <img src="logofru.png" width="180" height="80" class="ml-1" alt="">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -127,10 +166,18 @@
 </nav>
 
 
-<div class="jumbotron jumbotron-fluid" style="background-image: url(image.png); background-position: center; background-repeat: no-repeat; height: 550px; filter: blur(2px); -webkit-filter: blur(2px); margin-bottom: 0;"></div>
+<div class="jumbotron jumbotron-fluid" style="background-image: url(image.png); background-position: center; background-repeat: no-repeat; background-attachment: fixed; height: 550px; filter: blur(2px); -webkit-filter: blur(2px);"></div>
   <div class="container text-center mt-5" id="bgText">
-    <h1 class="display-6">Empresa 100 % mexicana</h1>
+
+    <div class="row"> 
+
+      <div class="col-12">
+         <h1 class="display-6">Empresa 100 % mexicana</h1>
     <p class="lead">Con 25 años de experiencia profesional en el segmento de Alimentos y Bebidas, desarrollamos, elaboramos, distribuimos y comercializamos, Agua Purificada, Jugos, Jarabes y Concentrados de Fruta Natural, ofreciendo amplias soluciones integrales para el Hogar, Hoteles, Bares y Restaurantes.</p>
+      </div>
+
+    </div>
+   
   </div>
 
 
@@ -186,6 +233,114 @@
 
 
 </section>
+
+
+
+<section class="products" style="background-color: #488eb7;">
+  
+  <div class="container p-3 mt-5 text-center">
+    
+
+    <h3 class="title" style="color: white; margin-top: 50px;">Productos</h3>
+
+    <div class="row p-3" style="justify-content: center;">
+      
+
+     <div class="col-md-4  col-5" style="width: 200px;">
+        
+        <img src="garrafa.png" class="img-fluid" id="imagensita" alt="...">
+
+     </div>
+     <div class="col-md-8  col-7 text-center p-2" style="width: 200px;">
+
+
+        <h4 id="titlep2"> Agua purificada </h4>
+
+        <blockquote class="blockquote text-center mb-0">
+  <p class="mb-0" id="content" style="color: ghostwhite;">Refrescante Pureza de principio a fin, elaborado bajo 7 rigurosos procesos de filtración y purificación, garantizando la calidad e inocuidad de nuestro producto.</p>
+  <footer style="color: rgb(219.14, 224.2, 227.11);" class="blockquote-footer">¿Mas informacion? <cite title="Source Title">↓</cite></footer>
+
+</blockquote>
+
+<button type="button" class="btn btn-danger btn-sm">¡Click aqui!</button>
+     </div>
+
+
+    </div>
+
+
+    <!-- -------------------- Inicio del segundo producto ----------------------- -->
+
+     <div class="row p-3 mt-3 " style="justify-content: center;">
+      
+
+    
+     <div class="col-md-8  col-7 text-center p-2" style="width: 200px;">
+
+
+        <h4 id="titlep2"> Jugos Naturales </h4>
+
+        <blockquote class="blockquote text-center mb-0">
+  <p class="mb-0" id="content" style="color: ghostwhite;">Elaborados 100% con fruta natural de temporada, frescos y saludables. Ideales para acompañar tus desayunos y fortalecer tus defensas en forma natural, libres de conservadores y azucares añadidos.</p>
+  <footer style="color: rgb(219.14, 224.2, 227.11);" class="blockquote-footer">¿Mas informacion? <cite title="Source Title">↓</cite></footer>
+
+</blockquote>
+
+<button type="button" class="btn btn-danger btn-sm">¡Click aqui!</button>
+     </div>
+
+      <div class="col-md-4  col-5" style="width: 200px;">
+        
+        <img src="jugos.png" class="img-fluid" id="imagensitaa" alt="...">
+
+     </div>
+
+
+    </div>
+
+
+    <!-- ------------------- Inicio del tercer Producto ----------------------------- -->
+    <div class="row p-3 mt-3 " style="justify-content: center;">
+      
+      <div class="col-md-4  col-5" style="width: 200px;">
+        
+        <img src="colada.png" style="max-height: 160px;" class="img-fluid" id="imagensitaaa" alt="...">
+
+     </div>
+
+    
+     <div class="col-md-8  col-7 text-center p-2" style="width: 200px;">
+
+
+        <h4 id="titlep2"> Pulpas y concentrados naturales </h4>
+
+        <blockquote class="blockquote text-center mb-0">
+  <p class="mb-0" id="content" style="color: ghostwhite;">Pulpas y Concentrados 100% de frutas naturales, para uso en Frappes, Smoothies, Cocteleria y Repostería, ideales para Hoteles, Bares, y Restaurantes</p>
+  <footer style="color: rgb(219.14, 224.2, 227.11);" class="blockquote-footer">¿Mas informacion? <cite title="Source Title">↓</cite></footer>
+
+</blockquote>
+
+<button type="button" class="btn btn-danger btn-sm">¡Click aqui!</button>
+     </div>
+
+      
+
+
+    </div>
+
+  </div>
+
+
+
+</section>
+
+<section class="social">
+  
+  
+  
+</section>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
