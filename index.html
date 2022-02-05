@@ -159,6 +159,15 @@
   </div>
 </nav>
 
+<!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    
+
 
 <div class="jumbotron jumbotron-fluid" style="background-image: url(image.png); background-position: center; background-repeat: no-repeat; background-attachment: fixed; height: 550px; filter: blur(2px); -webkit-filter: blur(2px);"></div>
   <div class="container text-center mt-5" id="bgText">
@@ -173,6 +182,8 @@
     </div>
    
   </div>
+
+
 
 
 <section class="about" >
@@ -285,7 +296,7 @@
 
       <div class="col-md-4  col-5" style="width: 200px;">
         
-        <img src="Jugos.png" class="img-fluid" id="imagensitaa" alt="...">
+        <img src="jugos.png" class="img-fluid" id="imagensitaa" alt="...">
 
      </div>
 
@@ -336,7 +347,29 @@
 
 
 
+<script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "111038703942146");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
     <!-- Optional JavaScript -->
