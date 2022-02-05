@@ -52,11 +52,15 @@
  
   text-align: center;
     }
+    #conten:hover{
+       background-color: #9f102c;
+             transition: all .5s;
+    }
 
     @media only screen and (max-width: 600px) {
   #bgText {
     top: 75%;
-    
+    max-width: 310px;
 
   }
 
@@ -64,17 +68,6 @@
     font-size: .7rem;
   }
 
-  #imagensita{
-    margin-top: 50%;
-  }
-
-   #imagensitaa{
-    margin-top: 75%;
-  }
-
-  #imagensitaaa{
-    margin-top: 50%;
-  }
 
 
 
@@ -238,15 +231,15 @@
 
 <section class="products" style="background-color: #488eb7;">
   
-  <div class="container p-3 mt-5 text-center">
+  <div class="container  p-3 mt-5 text-center">
     
 
-    <h3 class="title" style="color: white; margin-top: 50px;">Productos</h3>
+    <h3 class="title mb-5" style="color: white; margin-top: 50px;">Productos</h3>
 
-    <div class="row p-3" style="justify-content: center;">
+    <div class="row p-3 shadow rounded ml-2 mr-2 align-items-center" style="justify-content: center; background-color: #2f615e;">
       
 
-     <div class="col-md-4  col-5" style="width: 200px;">
+     <div class="col-md-4 col-5 " style="width: 200px;">
         
         <img src="garrafa.png" class="img-fluid" id="imagensita" alt="...">
 
@@ -271,7 +264,7 @@
 
     <!-- -------------------- Inicio del segundo producto ----------------------- -->
 
-     <div class="row p-3 mt-3 " style="justify-content: center;">
+     <div class="row p-3 mt-3 ml-2 mr-2 align-items-center  shadow rounded" style="justify-content: center; background-color: #4b3c5d;">
       
 
     
@@ -300,11 +293,11 @@
 
 
     <!-- ------------------- Inicio del tercer Producto ----------------------------- -->
-    <div class="row p-3 mt-3 " style="justify-content: center;">
+    <div class="row p-3 mt-3 ml-2 mr-2 align-items-center shadow rounded"   id="conten" style="justify-content: center; background-color: #2f615e;">
       
-      <div class="col-md-4  col-5" style="width: 200px;">
+      <div class="col-md-4  col-5"  style="width: 200px;">
         
-        <img src="colada.png" style="max-height: 160px;" class="img-fluid" id="imagensitaaa" alt="...">
+        <img src="colada.png"  style="max-height: 160px;" class="img-fluid" id="imagensitaaa" alt="...">
 
      </div>
 
