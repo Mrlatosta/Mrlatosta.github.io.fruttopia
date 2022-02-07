@@ -35,7 +35,7 @@
 
 
 		sr.reveal('#ti2', {
-				duration: 2000,
+				duration: 1000,
 				origin: 'right',
 				distance: '-50px'
 
@@ -44,7 +44,7 @@
 
 
 		sr.reveal('#ti3', {
-				duration: 3000,
+				duration: 1500,
 				origin: 'right',
 				distance: '-50px'
 
@@ -52,7 +52,7 @@
 		});
 
 		sr.reveal('#pr-1', {
-				duration: 1000,
+				duration: 1800,
 				origin: 'right',
 				distance: '-50px'
 
