@@ -74,3 +74,11 @@
 
 
 		});
+
+		sr.reveal('#formu', {
+				duration: 2000,
+				origin: 'right',
+				distance: '-50px'
+
+
+		});

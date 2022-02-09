@@ -22,7 +22,13 @@
       body{
         width: 100%;
     height: 100%;
-    background: #f7f7f7;
+    background: #008584;
+      }
+
+      #formu{
+        background-color: #002930;
+        color: white;
+        font-size: 1.2rem;
       }
 
       @font-face{
@@ -126,40 +132,6 @@
 
 
 
- @media only screen and (max-width: 600px) {
-
-#titlep2 {
-  font-size: .8rem;
-
-}
-
- }
-
-.about .icon-box {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.title {
-  font-weight: 700;
-  margin-bottom: 30px;
-  font-size: 40px;
-  text-transform: uppercase;
-}
-
-
-
-.titlep{
-  font-size: 25px;
-  margin: 20px;
-  text-transform: uppercase;
-}
-
-#titlep2{
-  margin: 20px;
-  text-transform: uppercase;
-   color:  #d8fffd;
-}
 
 
   .description{
@@ -240,10 +212,10 @@
       <div class="container p-3 pl-lg-5 pr-lg-5 align-items-center">
         
 
-      <h1 class="text-center mt-0 mb-3"> <strong> Contactanos </strong></h1>
+      <h1 class="text-center mt-0 mb-3 text-white" id="ti1"> <strong> Contactanos </strong></h1>
       
 
-          <div class="col-lg-12 mt-4 mb-4 d-flex align-items-center shadow rounded ">
+          <div class="col-lg-12 mt-4 mb-4 d-flex align-items-center shadow rounded " id="formu">
             <form action="assets/php/contact-us.php" method="post" role="form" class="php-email-form w-100 p-2">
               <div class="row">
                 <div class="form-group col-md-6">
@@ -264,7 +236,7 @@
                 <textarea class="form-control" name="message" rows="5" required></textarea>
               </div>
             
-              <div class="text-center mb-4"><button type="submit" class="btn btn-secondary">Send Message</button></div>
+              <div class="text-center mb-4"><button type="submit" class="btn btn-success">Enviar Mensaje</button></div>
             </form>
           </div>
 
