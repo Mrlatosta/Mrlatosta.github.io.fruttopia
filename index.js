@@ -82,3 +82,11 @@
 
 
 		});
+
+		sr.reveal('#contac', {
+				duration: 1000,
+				origin: 'right',
+				distance: '-50px'
+
+
+		});
