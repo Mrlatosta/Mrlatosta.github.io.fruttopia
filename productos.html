@@ -127,6 +127,16 @@
 
   }
 
+  #list-tab a{
+    font-size: 0.8rem;
+  }
+
+    #carimg{
+       
+        max-height: 170px;
+    
+      }
+
   #imgmodal{
     max-width: 160px;
   }
@@ -158,6 +168,10 @@
 }
 
 
+}
+
+#imgjg{
+  max-width: 100px;
 }
 
 
@@ -277,6 +291,8 @@
  </div>
 
 
+
+
       <div class="container mt-5 ">
         
 
@@ -304,9 +320,9 @@
 
 <button type="button" class="btn btn-danger btn-sm mb-3" data-toggle="modal" data-target="#exampleModal">¡Click aqui!</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content  text-dark">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable" >
+    <div class="modal-content  text-white" style="background-color: #2E5266;">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Agua Purificada</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -321,7 +337,7 @@
       <div class="row align-items-center">
         
 
-        <div class="col-lg-4 col-sm-12 border">
+        <div class="col-lg-4 col-sm-12 ">
           <img src="garrasm2.png" class="img-fluid" id="imgmodal" alt="garrafon">
         </div>
 
@@ -410,7 +426,93 @@ Si el producto es abierto, se recomienda consumir en máximo de 30 días</p>
 
 </blockquote>
 
-<button type="button" class="btn btn-danger btn-sm mb-3">¡Click aqui!</button>
+<button type="button" class="btn btn-danger btn-sm mb-3" data-toggle="modal" data-target="#exampleModal2">¡Click aqui!</button>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable" >
+    <div class="modal-content  text-white" style="background-color: #2E5266;">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jugos Naturales</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="row">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+
+       <a class="list-group-item list-group-item-action active" id="list-general-list" data-toggle="list" href="#list-general" role="tab" aria-controls="general">General</a>
+
+      <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Jugo Naranja</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Jugo Piña</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Jugo Verde</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Jugo Toronja </a>
+    
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+
+      <div class="tab-pane fade show active" id="list-general" role="tabpanel" aria-labelledby="list-general-list">
+
+        <img src="jugos2.png" class="img-fluid mt-0" style="max-height: 150px;" alt="jugos">
+
+        <h4> <strong> Jugos Naturales </strong> </h4>
+
+        <h5> <strong>Empaque y contenido </strong></h5>
+
+        <p>Garrafa PET de 5 litros y Botella PET de 1000 ml</p>
+
+        <h5><strong>Almacenamiento y temperatura </strong></h5>
+
+        <p>Transportar y almacenar en cadena de frio (conservación). En carga refrigerada</p>
+
+        <h5><strong>Caducidad y vida de anaquel</strong></h5>
+
+        <p>30 dias en refrigeración en envase sellado. 
+      Si el producto es abierto, se recomienda consumir en un máximo de 3 días.
+</p>
+
+<h5><strong>Información adicional & recomendaciones </strong></h5>
+
+<p>Lote y fecha de caducidad en etiqueta.
+Consumase frio.</p>
+
+      </div>
+
+      <div class="tab-pane fade " id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+        <img src="jn.png" class="img-fluid" id="imgjg" alt="">
+
+        <h5 class="mt-3">Jugo de Naranja</h5>
+        <p>Beneficios: Ayuda a reducir las acidez gástrica. Sus nitratos de carbono ayudan a mantener el buen funcionamiento del sistema urinario. Reduce los niveles de colesterol malo y ayuda a nivelar la presión arterial. Su vitamina C es perfecta para fortalecer las defensas del organismo.</p>
+
+      </div>
+      
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+
+         <img src="pñ.png" class="img-fluid" id="imgjg" alt="">
+
+        <h5 class="mt-3">Jugo de Piña</h5>
+        <p>Beneficios: Impulsa el Sistema inmunologico, evitando las infecciones por virus y bacterias, mejora la digestion y ayuda con los probemas respiratorios.</p>
+
+      </div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Salir</button>
+      </div>
+    </div>
+  </div>
+</div>
 
                  </div>
 
@@ -528,7 +630,7 @@ Si el producto es abierto, se recomienda consumir en máximo de 30 días</p>
     
 
 
-<footer class="mt-5" style="background-color: #21203f;">
+<footer class="mt-5 mb-0" style="background-color: #21203f;">
       
     <div class="container ">
       
@@ -592,8 +694,12 @@ Tel. Oficinas (984) 2061860 Ventas (998) 1019396
 
         </div>
 
+       
 
     </div>
+
+
+
 
 
 </footer>
